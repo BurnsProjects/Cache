@@ -11,10 +11,10 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(
+        .target( 
             name: "Cache",
             path: "Source",
-            exclude: ["Library/ImageWrapper.swift"]),
+            exclude: []),
         .testTarget(
             name: "CacheTests",
             dependencies: ["Cache"],
